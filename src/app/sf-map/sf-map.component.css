@@ -1,0 +1,35 @@
+.sf-map {
+	text-align: center;
+}
+
+.sf-map >>> .tract:hover {
+	stroke: orange;
+	stroke-width: 12px;
+}
+
+#route-selections {
+	margin-bottom: 15px;
+}
+
+#legend {
+	margin-bottom: 15px;
+
+}
+#legend div {
+	display: inline-block;
+}
+
+#legend i {
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#vehicle-legend {
+	background-color: orange;
+}
+
+#stop-legend {
+	background-color: #5cf186;
+}
